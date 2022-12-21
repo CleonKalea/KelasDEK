@@ -1,0 +1,179 @@
+Poliklinik::create([
+    'nama_poli'=>'Poli Mata',
+    'desc1'=>'Poli mata merupkan tempat spesialis mata',
+    'desc2'=>'Poli mata merupakan poli tempat memeriksakan mata'
+])
+
+Poliklinik::create([
+    'nama_poli'=>'Poli Kulit & Kelamin',
+    'desc1'=>'Poli mata merupkan tempat spesialis kulit dan kelamin',
+    'desc2'=>'Poli mata merupakan poli tempat memeriksakan mata'
+])
+
+Poliklinik::create([
+    'nama_poli'=>'Poli THT',
+    'desc1'=>'Poli mata merupkan tempat spesialis tenggorokan hidung dan telinga',
+    'desc2'=>'Poli mata merupakan poli tempat memeriksakan mata'
+])
+
+Poliklinik::create([
+    'nama_poli'=>'Poli Jiwa',
+    'desc1'=>'Poli mata merupkan tempat spesialis kejiwaan',
+    'desc2'=>'Poli mata merupakan poli tempat memeriksakan mata'
+])
+
+Poliklinik::create([
+    'nama_poli'=>'Poli Anak',
+    'desc1'=>'Poli mata merupkan tempat spesialis anak',
+    'desc2'=>'Poli mata merupakan poli tempat memeriksakan mata'
+])
+
+
+
+
+DokterView::create([
+    'jadwal_dokter_id'=>1,
+    'poliklinik_id'=>1,
+    'jenis_kelamin_id'=>1,
+    'nama_dokter'=>'Dr.I Komang Cleon Kalea Sp.KK',
+    'deskripsi'=>'Saya merupakan dokter yang handal'
+])
+
+DokterView::create([
+    'jadwal_dokter_id'=>1,
+    'poliklinik_id'=>2,
+    'jenis_kelamin_id'=>1,
+    'nama_dokter'=>'Dr.Marsyall Sp.KK',
+    'deskripsi'=>'Saya merupakan dokter yang handal'
+])
+
+DokterView::create([
+    'jadwal_dokter_id'=>2,
+    'poliklinik_id'=>1,
+    'jenis_kelamin_id'=>1,
+    'nama_dokter'=>'Dr.Picekho Sp.KK',
+    'deskripsi'=>'Saya merupakan dokter yang handal'
+])
+
+DokterView::create([
+    'jadwal_dokter_id'=>3,
+    'poliklinik_id'=>3,
+    'jenis_kelamin_id'=>1,
+    'nama_dokter'=>'Dr.Kalihoy Sp.KK',
+    'deskripsi'=>'Saya merupakan dokter yang handal'
+])
+
+DokterView::create([
+    'jadwal_dokter_id'=>4,
+    'poliklinik_id'=>2,
+    'jenis_kelamin_id'=>1,
+    'nama_dokter'=>'Dr.Nana Sp.KK',
+    'deskripsi'=>'Saya merupakan dokter yang handal'
+])
+
+DokterView::create([
+    'jadwal_dokter_id'=>6,
+    'poliklinik_id'=>4,
+    'jenis_kelamin_id'=>1,
+    'nama_dokter'=>'Dr. dr. I Nengah Radityana, Sp.M (K)',
+    'deskripsi'=>'Saya merupakan dokter yang handal'
+])
+
+
+
+
+UserView::create([
+    'username' => 'Wahyu',
+    'email' => 'adewahyu@gmail.com',
+    'namauser' => 'Made Wahyu Adwitya Pramana',
+    'no_telp' => '081234567890',
+    'password' => 'Bangli123'
+])
+
+UserView::create([
+    'username' => 'Muti',
+    'email' => 'muti@gmail.com',
+    'namauser' => 'Ni Putu Mutiara Orlanda H P',
+    'no_telp' => '081234567890',
+    'password' => 'Nusadua123'
+])
+
+UserView::create([
+    'username' => 'Tori',
+    'email' => 'Trish@gmail.com',
+    'namauser' => 'Ni Putu Triska Widiantari',
+    'no_telp' => '081234567890',
+    'password' => 'Denpasar123'
+])
+
+UserView::create([
+    'username' => 'Vina',
+    'email' => 'devina@gmail.com',
+    'namauser' => 'Annisa Sahda Devina',
+    'no_telp' => '081234567890',
+    'password' => 'Jimbaran123'
+])
+
+UserView::create([
+    'username' => 'Supri',
+    'email' => 'Prihan@gmail.com',
+    'namauser' => 'Prihandana Gamtenk',
+    'no_telp' => '081234567890',
+    'password' => 'Batubulan123'
+])
+
+
+
+JadwalDokter::create([
+    'jam'=>'10:00',
+    'hari'=>'Senin',
+    'tanggal'=>'01',
+    'bulan'=>'Desember'
+])
+
+JadwalDokter::create([
+    'jam'=>'13:00',
+    'hari'=>'Senin',
+    'tanggal'=>'01',
+    'bulan'=>'Desember'
+])
+
+JadwalDokter::create([
+    'jam'=>'15:00',
+    'hari'=>'Senin',
+    'tanggal'=>'01',
+    'bulan'=>'Desember'
+])
+
+JadwalDokter::create([
+    'jam'=>'10:00',
+    'hari'=>'Senin',
+    'tanggal'=>'01',
+    'bulan'=>'Desember'
+])
+
+JadwalDokter::create([
+    'jam'=>'13:00',
+    'hari'=>'Selasa',
+    'tanggal'=>'02',
+    'bulan'=>'Desember'
+])
+
+JadwalDokter::create([
+    'jam'=>'15:00',
+    'hari'=>'Selasa',
+    'tanggal'=>'02',
+    'bulan'=>'Desember'
+])
+
+
+
+JenisKelamin::create([
+    'jenis_kelamin'=>'Laki-laki'
+])
+
+JenisKelamin::create([
+    'jenis_kelamin'=>'Perempuan'
+])
+
+
